@@ -60,7 +60,9 @@ public class Principal {
         System.out.println("escriba un mensaje: ");
         Scanner scan = new Scanner(System.in);
         text= scan.nextLine();
+        scan.close();
         return("texto escrito: "+text);
+        
     }
 
 }
